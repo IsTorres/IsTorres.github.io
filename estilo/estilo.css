@@ -4,22 +4,68 @@
 body {
     margin: 0px;
     font-size: 17px;
+    background-color: #B1D4E0;
 }
 /* menu - top */
+nav {
+    
+}
+
 .menu ul {
+    background-color: #2E8BC0;
     text-align: center;
     list-style: none;
     display: flex;
-    margin: 10px;
-    color: black;
+    margin: 0px;
+    padding: 10px;
+}
+
+.menu li {
+    padding: auto;
 }
 
 .menu a {
     text-decoration: none;
-    color: #222;
+    color: #0C2D48;
 }
 
 .menu a:hover {
     text-decoration: underline;
-    color: rgb(33, 150, 33);
+    color: #B1D4E0
+
+    ;
+}
+/* ---------------- */
+
+.profile {
+    color: #0C2D48;
+}
+
+.profile p {
+    justify-content: center;
+    display: flex;
+}
+
+.profile p, strong {
+    margin: 0 5px;
+}
+
+.profile img {
+    box-shadow: 0px 2px 10px;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.profile h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+
 }
