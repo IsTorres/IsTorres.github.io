@@ -6,22 +6,29 @@ body {
     font-size: 17px;
     background-color: #B1D4E0;
 }
+
+hr {
+    border-top: solid 2px #2E8BC0;
+}
+
 /* menu - top */
+
 nav {
     
 }
 
 .menu ul {
     background-color: #2E8BC0;
-    text-align: center;
     list-style: none;
     display: flex;
+    justify-content: space-around;
     margin: 0px;
     padding: 10px;
 }
 
 .menu li {
     padding: auto;
+
 }
 
 .menu a {
@@ -66,6 +73,24 @@ nav {
     justify-content: center;
 }
 
-.skills {
+/* ---------------- */
 
+.skills {
+    color: #0C2D48;
+}
+
+.skills h3 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin-left: -2%;
+    margin-bottom: 30px;
 }
