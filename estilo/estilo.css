@@ -1,20 +1,20 @@
 *{
+    box-sizing: border-box;
     margin: auto;
 }
 body {
+    height: 100%;
     margin: 0px;
-    background-color: #9aadbf;
     font-family: monospace;
 }
 
-hr {
-    border-top: solid 2px #fff;
+/* menu - top */
+.logo {
+    width: 150px;
 }
 
-/* menu - top */
-
 .menu ul {
-    background-color: #6D98BA;
+    background-color: #0C2D48;
     color: #fff;
     list-style: none;
     display: flex;
@@ -38,53 +38,69 @@ hr {
 .menu a:hover {
     text-decoration: underline;
     color: #B1D4E0
-
+    
     ;
 }
 /* ---------------- */
 
 .profile {
+    background-color: rgb(0 0 0 / 75%);    
     color: #0C2D48;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #ffffff54;
 }
 
 .profile p {
-    justify-content: center;
-    display: flex;
-    font-size: 20px;
-}
-
-.profile p, strong {
-    margin: 0 0 0 10px;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
 }
 
 .profile img {
-    box-shadow: 0px 2px 10px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.781);
     object-fit: cover;
     height: 300px;
     width: 300px;
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
     border-radius: 50%;
 }
 
 .profile h1 {
     text-align: center;
-    display: flex;
+    margin: 0 25%;
+    font-size: 3em;
+    color: #0c2d48;
 }
+
 .profile em {
     font-style: normal;
+}
+
+.bg-img {
+    background-color: rgb(0 0 0 / 75%);
+    background-image: url(../imgs/web-dev-ty.jpg);
+    /* filter: grayscale(100%); */
+    /* -webkit-filter: grayscale(100%); */
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.container {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* ---------------- */
 
 .skills {
-    background-color: #d3b99f;
+    background-color: #0C2D48;
     color: #000;
     padding: 30px;
-    border-top:  solid #210203;
-    border-bottom:  solid #210203;
-    margin: 15px 0;
 }
 
 .skills h2 {
