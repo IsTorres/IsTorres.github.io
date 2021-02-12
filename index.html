@@ -1,55 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="estilo/estilo.css">
+
+    <script src="https://kit.fontawesome.com/9f4211e47a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
     <title>Portfólio</title>
 </head>
 
-<body>
-    <header>
-        <nav class="menu">
-            <ul id="links">
-                <li><a href="#skills">Skills</a></li>
-                <li>|</li>
-                <li><a href="#nome">Sobre mim</a></li>
-                <li>|</li>
-                <li><a href="#links">Links</a></li>
-            </ul>
-        </nav>
-    </header>
+<body >
+    <nav class="menu">
+        <ul id="links">
+            <li><img class="logo" src="imgs/logo_transparent.png" alt="Logo Ismael Torres"></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#nome">Sobre mim</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul>
+    </nav>
 
     <div id="foto" class="profile">
-        <img src="imgs/foto.jpg" width="300px" alt="Uma foto minha">
-        <h1 id="nome"><em>Ismael Torres de Freitas Vieira</em></h1>
-    
-        <p>
-            Sou Brasileiro, nascido em Viçosa, Minas Gerais.
-        </p>
-        <p>
-            A cidade com a<strong> universidade mais bonita do páis.</strong>
-        </p>
-    </div>
+        <div class="bg-img"></div>
+        <div class="container">
+            <img src="imgs/foto.jpg" width="300px" alt="Uma foto minha">
 
-    <br>
-    <hr>
-    <br>
+            <h1 id="nome"><em>Ismael Torres de Freitas Vieira</em></h1>
+            <p>
+                Sou Brasileiro, nascido em Viçosa, Minas Gerais <br>
+                A cidade com a <strong>universidade mais bonita do páis.</strong>
+            </p>
+        </div>
+    </div>
 
     <div id="skills" class="skills">
-        <h3><strong>Skills</strong></h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>GIT</li>
-        </ul>
+        <div class="itens">
+            <div class="class-html">
+                <h3>HTML</h3><i class="fab fa-html5"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam soluta perspiciatis reiciendis, voluptates ipsum natus quis corrupti nihil dolores repellat esse illum impedit quisquam temporibus! Beatae accusamus vel sint ducimus?</p>
+            </div>
+            <div class="class-css">
+                <h3>CSS</h3><i class="fab fa-css3-alt"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam soluta perspiciatis reiciendis, voluptates ipsum natus quis corrupti nihil dolores repellat esse illum impedit quisquam temporibus! Beatae accusamus vel sint ducimus?</p>
+            </div>
+            <div class="class-git">
+                <h3>GIT</h3><i class="fab fa-github-square"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam soluta perspiciatis reiciendis, voluptates ipsum natus quis corrupti nihil dolores repellat esse illum impedit quisquam temporibus! Beatae accusamus vel sint ducimus?</p>
+            </div>
+        </div>
     </div>
-
-    <br>
-    <hr>
-    <br>
 
     <div class="recomd">
         <ul>
@@ -59,7 +59,6 @@
             
             <li><a href="https://medium.com/@FilipeDeschamps" target="_blank">Blog que recomendo</a></li>
         </ul>
-        <!-- <a href="#foto">Foto - Eu :D</a><br> -->
     </div>
 </body>
 </html>
