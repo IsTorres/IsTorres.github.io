@@ -56,12 +56,6 @@ body {
     text-shadow: 0px 1px 1px #ffffff54;
 }
 
-.profile p {
-    text-align: center;
-    font-size: 30px;
-    margin: 20px;
-}
-
 .profile img {
     box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 78%);
     object-fit: cover;
@@ -78,8 +72,10 @@ body {
     color: #191a1a;
 }
 
-.profile em {
-    font-style: normal;
+.profile p {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
 }
 
 .bg-img {
@@ -126,17 +122,30 @@ body {
 }
 
 .projects{
+    text-align: center;
     background-color: #c6d2d6;
     display: flex;
     padding: 15px;
 }
 
 .projects a {
+    border-radius: 10px;
     padding: 15px;
     text-decoration: none;
-    color: #fff;
+    color: #000202e6;
     font-weight: bold;
     font-size: 15px;
+    transition: border 0s, box-shadow 0.5s;
+}
+
+.projects i {
+    font-size: 60px;
+}
+
+.projects a:hover {
+    box-shadow: 5px 5px 1px  #02080fd3;
+    border-top: 1px solid #96a9af;
+    border-left: 1px solid #96a9af;
 }
 
 .contact{
