@@ -10,35 +10,42 @@ body {
 
 /* menu - top */
 .logo {
-    width: 150px;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 60px;
+}
+.menu {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .menu ul {
     background-color: #0C2D48;
-    color: #fff;
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    margin: 0px;
+    justify-content: flex-end;
     padding: 10px;
 }
 
 .menu li {
-    font-size: 30px;
+    font-size: 20px;
     font-family: monospace;
     font-weight: bold;
+    margin: 15px 50px;
 }
 
 .menu a {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
 }
 
 .menu a:hover {
-    text-decoration: underline;
-    color: #B1D4E0
-    
-    ;
+    color: #B1D4E0;
+    text-shadow: 5px 2px 3px #000;
 }
 /* ---------------- */
 
