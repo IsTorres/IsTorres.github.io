@@ -78,20 +78,8 @@ body {
     margin: 20px;
 }
 
-.bg-img {
-    background-color: #c6d2d6;
-    /* background-image: url(../imgs/web-dev-ty.jpg); */
-    position: absolute;
-    height: 800px;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-}
-
 .container {
-    height: 800px;
+    height: 950px;
     display: flex;
     flex-direction: column;
 }
