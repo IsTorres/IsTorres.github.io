@@ -20,10 +20,21 @@
   margin: 0 0 15px 0;
 }
 
-.bio {
-  color: rgb(244, 246, 255);
+.bio-text {
+  color: rgba(244, 246, 255, 0.7);
   text-align: left;
   margin: auto;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.bio-title {
+  font-size: xx-large;
+}
+
+.text-up {
+  font-weight: 600;
+  color: rgb(244, 246, 255);
 }
 
 .text-link {
@@ -37,7 +48,7 @@
 
 .title {
   text-align: initial;
-  font-size: 1em;
+  font-size: 1.5em;
   background-image: linear-gradient(to right, rgb(0, 241, 255), rgb(0, 173, 255));
   color: transparent;
   -webkit-background-clip: text;
@@ -57,17 +68,31 @@
 
 .contact {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
-  margin: 10vh 0;
+  margin: 5vh 3vh;
 }
 
 .contact h4 {
   margin: 2vh;
   text-align: center;
+  transition: all ease-in-out 0.1s;
 }
 
+.contact h4:hover {
+  margin: 0 2vh;
+  text-align: center;
+  font-size: large;
+  transition: all ease-in-out 0.3s;
+}
+
+/* .social {
+  display: flex;
+  justify-content: space-between;
+} */
+
 .foto {
+  margin: 0 2vh;
   width: 50px;
   height: 50px;
   border-radius: 100%;

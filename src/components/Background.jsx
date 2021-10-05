@@ -2,16 +2,6 @@ import React from 'react';
 import Particles from "react-tsparticles";
 
 export default function Background() {
-  // particlesInit(main) {
-  //   console.log(main);
-
-  //   // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-  // }
-
-  // particlesLoaded(container) {
-  //   console.log(container);
-  // }
-
   return (
     <Particles
       id="tsparticles"
@@ -72,7 +62,7 @@ export default function Background() {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 2,
+            speed: 1,
             straight: false,
           },
           number: {
