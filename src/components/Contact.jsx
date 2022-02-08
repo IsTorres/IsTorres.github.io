@@ -12,19 +12,19 @@ export default function Contact() {
       <div className="contact">
         <h4>
           <a className='text-link' href="https://www.linkedin.com/in/ismaeltorresf/" target="_blank" rel="noreferrer">
-          <i class="bi bi-linkedin"></i>
+          <i className="bi bi-linkedin"></i>
             { ' linkedin' }
           </a>
           </h4>
         <h4>
           <a className='text-link' href="https://github.com/IsTorres" target="_blank" rel="noreferrer">
-          <i class="bi bi-github"></i>
+          <i className="bi bi-github"></i>
             { ' GitHub' }
           </a>
         </h4>
         <h4>
           <a className='text-link' href="https://www.instagram.com/ismaeltfv/" target="_blank" rel="noreferrer">
-            <i class="bi bi-instagram"></i>
+            <i className="bi bi-instagram"></i>
             { ' Instagram' }
           </a>
         </h4>
