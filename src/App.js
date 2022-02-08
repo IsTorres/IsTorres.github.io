@@ -1,32 +1,11 @@
-import './styles/App.css';
-// import Bio from './components/Bio';
-// import Contact from './components/Contact';
-// import Navigation from './components/Navigation';
-// import Background from './components/Background';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <div className='content'>
-//         <section className='App-header'>
-//           <Bio />
-//           <Contact />
-//         </section>
-//         <section className='App-header'>
-//           <Navigation />
-//         </section>
-//       </div>
-//       <Background />
-//     </div>
-//   );
-// }
-
-// export default App;
 import React, { Component } from 'react';
+import './styles/App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
 
 export default class App extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       title: 'Ismael Torres',
       links: [
@@ -49,10 +28,24 @@ export default class App extends Component {
       contact: {
         title: 'Lets talk',
       },
-    }
+    };
   }
+
   render() {
-    return <div></div>;
+    return (
+      <Router>
+        <Container>
+          <p>Hello</p>
+          {/* <BrowserRouter>
+            <Routes>
+              <Route path='/'>Home</Route>
+              <Route path='/about' element={Bio}>About</Route>
+              <Route path='/projects'>Projetos</Route>
+              <Route path='/contact' element={Contact}>Contato</Route>
+            </Routes>
+          </BrowserRouter> */}
+        </Container>
+      </Router>
+    );
   }
 }
-
