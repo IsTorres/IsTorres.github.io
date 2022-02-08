@@ -1,13 +1,5 @@
 import React from 'react'
-import javascript from '../images/javascript.svg';
-import react from '../images/react.svg';
-import redux from '../images/redux.svg';
-import git from '../images/git.svg';
-import eslint from '../images/eslint.svg';
-import jest from '../images/jest.svg';
-import node from '../images/nodejs.svg';
-import mongodb from '../images/mongodb.svg';
-import mysql from '../images/mysql.svg';
+import images from './DefaultCard';
 import TechIcon from './TechIcon';
 import '../styles/home.css';
 
@@ -29,15 +21,15 @@ export default function Bio() {
         <h3 className="title">Tecnologias</h3>
         <div>
           <div className="tech-links">
-            <TechIcon tech={ javascript }/>
-            <TechIcon tech={ react }/>
-            <TechIcon tech={ redux }/>
-            <TechIcon tech={ git }/>
-            <TechIcon tech={ eslint }/>
-            <TechIcon tech={ jest }/>
-            <TechIcon tech={ mongodb }/>
-            <TechIcon tech={ node }/>
-            <TechIcon tech={ mysql }/>
+            <TechIcon tech={ images.javascript }/>
+            <TechIcon tech={ images.react }/>
+            <TechIcon tech={ images.redux }/>
+            <TechIcon tech={ images.git }/>
+            <TechIcon tech={ images.eslint }/>
+            <TechIcon tech={ images.jest }/>
+            <TechIcon tech={ images.mongodb }/>
+            <TechIcon tech={ images.node }/>
+            <TechIcon tech={ images.mysql }/>
           </div>
         </div>
       </div>
